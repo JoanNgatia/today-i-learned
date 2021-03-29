@@ -4,7 +4,6 @@
 >   - the resources that you require to run properly and,
 >   - the maximum resources your workload is allowed to consume.
 
-
 These params are defined while creating a container, using a `resources` property of the containerSpec.
 
 ```yaml
@@ -44,6 +43,11 @@ The output of available quota will include total allowed on the cluster and tota
 
 This means that of the 10Gi allocated on the namespace, we are at approx 50% memory usage and 54% CPU usage.
 
+
 ### Conversion Notes
 - For Memory `1024 Mi(Mebibytes) = 1 Gi(Gibibytes)`
 - For CPU: `m` stands for `thousandth of a core`, so `2000m` will be `2 cores`.
+
+
+### Official docs
+[Managing Resources for Containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
