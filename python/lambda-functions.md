@@ -27,3 +27,8 @@ The lambda definition does not include a “return” statement, it always conta
 #### Pitfalls of using lambdas
 1. The function can have any number of arguments, but only **one expression**.
 1. PEP8 does not allow for the assignment of the lambda fucntion to a variable that you can then re-use.
+
+
+#### Additional reading
+- [PEP8 rule](https://www.flake8rules.com/rules/E731.html)
+- [RealPython tutorial](https://realpython.com/python-lambda/)
