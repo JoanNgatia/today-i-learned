@@ -16,6 +16,16 @@ However, you can use lambda functions to define **anonymous** functions.
 lambda n: True if (n % 7 == 0) or (n % 2 != 0) else False
 ```
 
+You can apply the function above to an argument by surrounding the function and its argument with parentheses:
+
+```py
+# should return True
+(lambda n: True if (n % 7 == 0) or (n % 2 != 0) else False)(42)
+
+# should return False
+(lambda n: True if (n % 7 == 0) or (n % 2 != 0) else False)(50)
+```
+
 ### Lambda functions syntax
 
 ```
