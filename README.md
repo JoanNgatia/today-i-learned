@@ -9,7 +9,11 @@ Shamelessly copied from https://github.com/jbranchaud/til
 ### Categories
 * [Kubernetes](#kubernetes)
 * [PostgreSQL](#postgresql)
+* [Python](#python)
 ...
 
 #### Kubernetes
 - [Resource Limits](kubernetes/resource-limits.md)
+
+#### Python
+- [Lambda Functions](python/lambda-functions.md)
