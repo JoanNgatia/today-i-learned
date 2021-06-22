@@ -7,6 +7,7 @@ Shamelessly copied from https://github.com/jbranchaud/til
 
 
 ### Categories
+* [Bash Scripting](#scripting)
 * [Kubernetes](#kubernetes)
 * [Monitoring](#monitoring)
 * [PostgreSQL](#postgresql)
@@ -21,3 +22,6 @@ Shamelessly copied from https://github.com/jbranchaud/til
 
 #### Python
 - [Lambda Functions](python/lambda-functions.md)
+
+#### Scripting
+- [How to log file name](bash/log-file-name.md)
