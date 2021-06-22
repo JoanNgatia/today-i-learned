@@ -3,7 +3,7 @@
 Normal Python functions are defined using the `def` keyword.
 e.g
 
-```py
+```python
 def is_odd_or_div_by_7(n):
     if (n % 7 == 0) or (n % 2 != 0):
         return True
@@ -12,13 +12,13 @@ def is_odd_or_div_by_7(n):
 
 However, you can use lambda functions to define **anonymous** functions.
 
-```py
+```python
 lambda n: True if (n % 7 == 0) or (n % 2 != 0) else False
 ```
 
 You can apply the function above to an argument by surrounding the function and its argument with parentheses:
 
-```py
+```python
 # should return True
 (lambda n: True if (n % 7 == 0) or (n % 2 != 0) else False)(42)
 
