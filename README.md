@@ -1,6 +1,10 @@
 # today-i-learned
 > TIL - Things I learned :grin:
 
+<p align="center">
+    <img src="https://media.giphy.com/media/KFIVpVITEFHQNwlTNv/giphy.gif" alt="today-i-learned-something-interesting"/>
+</p>
+
 A collection of my notes on small things I learn day to day.
 
 Shamelessly copied from https://github.com/jbranchaud/til
@@ -13,6 +17,7 @@ Shamelessly copied from https://github.com/jbranchaud/til
 * [Monitoring](#monitoring)
 * [PostgreSQL](#postgresql)
 * [Python](#python)
+* [Version Control](#version-control)
 ...
 
 
@@ -34,3 +39,6 @@ Shamelessly copied from https://github.com/jbranchaud/til
 #### Scripting
 - [How to log file name](bash/log-file-name.md)
 - [zsh Quirks](bash/zsh-related-quirks.md)
+
+#### Version Control
+- [How to cherry pick](version-control/cherry-pick.md)
