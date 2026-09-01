@@ -13,6 +13,7 @@ Shamelessly copied from https://github.com/jbranchaud/til
 ### Categories
 * [Bash Scripting](#scripting)
 * [Docker](#docker)
+* [Data stores and storage techniques](#data-storage)
 * [Kubernetes](#kubernetes)
 * [Monitoring](#monitoring)
 * [PostgreSQL](#postgresql)
@@ -42,3 +43,6 @@ Shamelessly copied from https://github.com/jbranchaud/til
 
 #### Version Control
 - [How to cherry pick](version-control/cherry-pick.md)
+
+#### Data Storage
+- [What's the haps with indexes and querying](data-storage/indexes_query.md)
